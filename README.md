@@ -34,7 +34,7 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 3. In the directory, you will find 4 R scripts namely, **plot1.R; plot2.R; plot3.R and plot4.R.**.  Each of these 4 R scripts will import the raw data file, generate the required plot and output the required image file in png format.
 4. Before you run **each R script**, please ensure you have,  
   * The R packages 'dplyr' and 'sqldf' installed and updated.
-  * Set the working directory to your working directory using the ```setwd``` function within the code.     
+  * Set the working directory to your working directory using the ```setwd``` function within the code.  
 
 # Output produced
 After successful run of each R script, you will find 4 png files in your working directory namely, **plot1.png; plot2.png; plot3.png and  plot4.png.**
