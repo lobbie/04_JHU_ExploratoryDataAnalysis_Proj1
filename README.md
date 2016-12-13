@@ -27,6 +27,9 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 * **Sub_metering_2**: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
 * **Sub_metering_3**: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
 
+# Data Transformation  
+A new variable **datetime** is created with variables **Date** and **Time** using the ```strptime``` and ```as.POSIXct``` functions to convert the date and time into Date/Time classes in R.
+
 # Instructions for reproduction
 
 1. Clone/download this repo to your local directory.  
